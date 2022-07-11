@@ -1,0 +1,85 @@
+.section__inner {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+img {
+    width: 50px;
+    display: flex;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+h1 {
+    display: flex;
+    color: darkslategray;
+}
+
+li {
+    display: inline-block;
+    padding: 15px, 30px;
+}
+
+a {
+    text-align: center;
+}
+
+.logo-docplanner {
+    width: 25%;
+    margin-top: 30px;
+    height: auto;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+
+}
+
+a:hover {
+    color: blue;
+
+}
+
+
+
+.health-intro {
+    display: flexbox;
+    justify-content: right;
+    flex-direction: row;
+    width: 300px;
+
+}
+
+.grid-elements {
+    display: flex;
+    font-family: roboto;
+}
+
+.patients {
+    border-style: dashed;
+    border-color: darkslategrey;
+}
+
+.doctors {
+    border-color: darkslategray;
+    border-style: solid;
+}
+
+.clinics {
+    border-color: black;
+    border-style: dashed;
+}
+
+.country {
+    display: inline-flex;
+    flex-direction: row;
+}
